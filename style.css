@@ -1,25 +1,134 @@
 *{
 	margin: 0;
+	padding: 0;
+	font-family: arial,sans-serif;
 }
 
 .row-1{
 	background-image: url(images/banner.webp);
-	height: 500px;
-	color: white;
 	background-size: cover;
-	background-position: center 89%;
-	background
-
+	height: 350px;
+	padding: 35px;
+	text-align: center;
+	color: white;
 }
 
 .row-1-1{
+	background-image: url(https://wscubetech.co/Assignments/Assigment-10/images/spotlight-heading-bg.svg);
+	background-repeat: no-repeat;
+	font-size: 22px;
+	font-weight: 700;
+	display: inline;
+	background-position: bottom right;
+
+}
+
+.row-1-1 h1{
+	margin-top: 50px;
+}
+
+.row-1-3{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+	font-size: 23px;
+
+}
+
+.row-1-2{
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+.row-1-3 h1{
+	margin-bottom: 15px;
+}
+
+.row-1-3 h1:hover{
+	color: yellow;
+	cursor: pointer;
+}
+
+.row-1-3 div{
+/*	border-left: 1px solid grey;*/
+	width: 25%;
+}
+
+.last{
+	border-right:1px solid grey ;
+}
+
+
+.pura{
+	margin-left: 80px;
+	margin-top: 80px;
 	display: flex;
 }
 
-.row-1 h1{
-	text-align: center;
-	
-	font-size: 44px;
-	font-weight: 70px;
-	box-sizing: border-box;
+.row-2-2{
+	width: 500px;
+	opacity: 0.9;
+}
+
+.row-2-3{
+	width: 620px;
+	margin-top: 25px;
+}
+
+.row-2-4{
+	width: 600px;
+	border: 1px solid grey;
+	margin-top: 25px;
+	border-radius: 5px;
+	padding: 35px;
+}
+
+.row-2-4:hover{
+	border-color: rgb(38,153,251);
+}
+
+.row-2-4 h3{
+	margin-bottom: 15px;
+	opacity: 0.8;
+}
+
+.row-2-4 p{
+	opacity: 0.8;
+}
+
+.row-2-4 button{
+	color: rgb(38,153,251);
+	margin-top: 15px;
+	border: none;
+	background-color: white;
+	text-align: left;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+
+.row-5{
+	margin-left: 110px;
+	margin-top: 160px;
+}
+
+.row-7 button{
+	background-color: rgb(38,153,251);
+	color: white;
+	padding: 15px;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-left: 80px;
+	margin-bottom: 200px;
+	width: 100px;
+	font-size: 16px;
+/*	font-weight: bold;*/
+	transition: 1s;
+}
+
+.row-7 button:hover{
+	background-color: white;
+	color: black;
+	border: 1px solid rgb(38,153,251);
+	cursor: pointer;
 }
